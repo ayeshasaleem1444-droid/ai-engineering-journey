@@ -6,3 +6,4 @@
 - Lesson 04: APIs & Keys - completed 2026-11-08
 - Lesson 05: Jupyter Notebooks - completed 2026-11-11
 - Lesson 06: Python Environments - completed 2026-11-12
+- Lesson 07: Docker for AI - completed 2026-11-17

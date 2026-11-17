@@ -1,0 +1,18 @@
+services:
+  ai-dev:
+    build: .
+    volumes:
+      - .:/workspace
+    ports:
+      - "8888:8888"
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  qdrant_data:

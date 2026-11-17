@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+
+COPY *.whl /tmp/
+
+RUN pip install --no-cache-dir --timeout 300 --retries 10 /tmp/*.whl && rm /tmp/*.whl
+
+RUN pip install --no-cache-dir --timeout 300 --retries 10 numpy pandas scikit-learn matplotlib jupyter
+
+RUN pip install --no-cache-dir --timeout 300 --retries 10 flask
+
+WORKDIR /workspace
+VOLUME ["/workspace", "/models"]
+EXPOSE 8888
+CMD ["python"]
