@@ -7,3 +7,4 @@
 - Lesson 05: Jupyter Notebooks - completed 2026-11-11
 - Lesson 06: Python Environments - completed 2026-11-12
 - Lesson 07: Docker for AI - completed 2026-11-17
+- Lesson 08: Editor Setup - completed 2026-11-18
