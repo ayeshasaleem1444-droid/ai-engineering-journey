@@ -9,3 +9,4 @@
 - Lesson 07: Docker for AI - completed 2026-11-17
 - Lesson 08: Editor Setup - completed 2026-11-18
 - Lesson 09: Data Management - completed 2026-11-21
+- Lesson 10: Terminal & Shell - completed 2026-11-23
