@@ -10,3 +10,4 @@
 - Lesson 08: Editor Setup - completed 2026-11-18
 - Lesson 09: Data Management - completed 2026-11-21
 - Lesson 10: Terminal & Shell - completed 2026-11-23
+- Lesson 11: Linux for AI - completed 2026-11-25
