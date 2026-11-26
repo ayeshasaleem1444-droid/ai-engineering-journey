@@ -11,3 +11,4 @@
 - Lesson 09: Data Management - completed 2026-11-21
 - Lesson 10: Terminal & Shell - completed 2026-11-23
 - Lesson 11: Linux for AI - completed 2026-11-25
+- Lesson 12: Debugging & Profiling - completed 2026-11-26
